@@ -33,10 +33,5 @@
           <target>${jdk.version}</target>
         </configuration>
       </plugin>
-      <plugin>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>3.9.1.2184</version>
-</plugin>
     </plugins>
   </bu3.9.1.2184</project>
