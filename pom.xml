@@ -18,19 +18,20 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <jdk.version>1.8</jdk.version>
-
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
   </properties>
-  </distributionManagement>
-  <snapshotRepository>
+  
+  <distributionManagement>
+    <snapshotRepository>
       <id>nexus-snapshots</id>
       <url>http://65.1.130.236:8081/repository/nexushellowworld/</url>
-</snapshotRepository>
-<repository>
+    </snapshotRepository>
+    <repository>
       <id>nexus-releases</id>
       <url>http://65.1.130.236:8081/repository/maven-releases//</url>
-</repository>
+    </repository>
   </distributionManagement>
+
   <build>
     <plugins>
       <plugin>
